@@ -1,0 +1,21 @@
+# AdvancedChannelBot/requirements.txt
+#json
+#pathlib
+google-generativeai
+telebot
+yfinance
+requests
+beautifulsoup4
+md2tgmd
+vosk
+Pillow
+torch
+ffmpeg-python
+aiohttp
+python-telegram-bot==20.6
+openai==0.28.1
+google-cloud-aiplatform==1.35.0  # Für Gemini
+deepseek                 # Beispiel-Verweis (je nach SDK)
+requests==2.31.0
+deepseek              # Falls es ein offizielles Paket gibt
+qwen
