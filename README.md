@@ -16,6 +16,30 @@ This bot is built to be easily extensible, providing a solid foundation for more
 * **AI Integration**: Utilizes Google Gemini for advanced AI capabilities.
 * **Asynchronous**: Built with `asyncio` for efficient, non-blocking operation.
 
+Customization:
+
+You have full control over how your bot behaves and responds!
+
+Edit Bot's Role & Personality: In the config folder, open bot_role_settings.json. Here, you can easily define the bot's name, its core role, and even adjust its "kindness" (which can influence its tone, e.g., "criminal" for a more mischievous or bold persona).
+
+JSON
+
+{
+  "name": "AZAMAT",
+  "role": "Generiere die Antwort wie folgt: Du bist ein Bot, der drauf programmiert worden ist.",
+  "kindness": "criminal"
+}
+Adjust AI Generation Settings: Also in the config folder, you'll find generation_config.json. This file lets you fine-tune the Gemini AI's output. For example, temperature controls randomness (lower for more focused, higher for more creative), top_p and top_k influence the diversity of generated tokens, and max_output_tokens limits the response length.
+
+JSON
+
+{
+  "temperature": 0,
+  "top_p": 1,
+  "top_k": 1,
+  "max_output_tokens": 50
+}
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
